@@ -13,19 +13,19 @@ int main(){
     switch (operator)
     {
     case '+':
-        printf("%lf + %lf = %lf\n", operand1, operand2, operand1 + operand2);
+        printf("%.2lf + %.2lf = %.2lf\n", operand1, operand2, operand1 + operand2);
         break;
     
     case '-':
-        printf("%lf - %lf = %lf\n", operand1, operand2, operand1 - operand2);
+        printf("%.2lf - %.2lf = %.2lf\n", operand1, operand2, operand1 - operand2);
         break;
     
     case '*':
-        printf("%lf * %lf = %lf\n", operand1, operand2, operand1 * operand2);
+        printf("%.2lf * %.2lf = %.2lf\n", operand1, operand2, operand1 * operand2);
         break;
 
     case '/':
-        printf("%lf / %lf = %lf\n", operand1, operand2, operand1 / operand2);
+        printf("%.2lf / %.2lf = %.2lf\n", operand1, operand2, operand1 / operand2);
     default:
         printf("Error! Incorrect operator!");
         break;
