@@ -26,6 +26,8 @@ int main(){
 
     case '/':
         printf("%.2lf / %.2lf = %.2lf\n", operand1, operand2, operand1 / operand2);
+        break;
+        
     default:
         printf("Error! Incorrect operator!");
         break;
